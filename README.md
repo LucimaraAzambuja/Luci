@@ -1,2 +1,1 @@
-# Luci
-Onde vou guardar meus arquivos e pastas
+onde vou guardar meus arquivos e pastas         
