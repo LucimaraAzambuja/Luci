@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro Pessoal</title>
+</head>
+<body>
+    
+    <!-- comentário título do formulário -->
+    <div> 
+<h1>
+    Cadastro Pessoal
+</h1>
+<p>
+Preencha Corretamente Suas Imformações pessoais
+</p>
+<br>
+</div>
+
+<!-- comentário início do formulário -->
+<form>
+
+    <div class="campo">
+        <label for="nome"><strong>Nome</strong></label>
+
+<input type="text name="nome" id="nome" placeholder="digite seu nome" required>
+        </div>
+
+    <!-- comentário sobrenome -->
+
+<div class="campo">
+    <label for="sobrenome"><strong></strong>Sobrenome</label>
+    <input type="text" name="sobrenome" id="sobrenome" placeholder="digite seu sobrenome" required>
+    
+    </div>
+    </fieldset>
+
+        
+
+    <!-- comentário aqui começa o CPF -->
+        
+    <div class="campo">
+        <input type="text" name="cpf" \
+        pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" \
+        title="Digite um CPF no formato: 999.888.777-66">
+    <input type="submit" value="Verificar">
+        
+    </div>
+    
+    
+<!-- comentário aqui é o RG -->
+
+<div class="campo">
+    <label for="rg"><strong>RG</strong></label>
+    <input type="text" name="rg" id="rg" placeholder="Digite Seu RG" required>
+    </div>
+
+<!-- comentário botões para sexo -->
+
+<div class="campo">
+    <label><strong>Sexo</strong></label>
+    <label>
+<input type="radio" name="devweb" value="feminino" checked>Feminino
+    </label>
+    <label>
+        <input type="radio" name="devweb" value="masculino">Masculino
+    </label>
+    <label>
+        <input type="radio" name="devweb" value="outros">Outros
+    </label>
+</div>
+
+<!-- comentário e-mail -->
+
+<div class="campo">
+    <label for="email"><strong>E-mail</strong>(required): </label>
+    <input type="email" name="email" id="email" placeholder="seuemail@exemplo.com" required>
+    <span class="Validar"></span>
+    </div>
+
+
+<!-- comentário endereço -->
+<div class="campo">
+    <label for="endereço"><strong>Endereço</strong></label>
+    <input type="text" name="endereço" id="endereço" placeholder="Digite Seu Endereço" required>
+    </div>
+
+    <!-- comentário campo do número -->
+    <div class="campo">
+        <label for="número"><strong>Número</strong></label>
+        <input type="text" name="Número" id="número" placeholder="Digite O número" required>
+        </div>
+    
+<!-- comentário campo para complenento -->
+
+<div class="campo">
+    <label for="complemento"><strong>Complemento</strong></label>
+    <input type="text" name="complemento" id="complemento" placeholder="Digite o Complemento se houver">
+    </div>
+
+<!-- comentário campo para cidade -->
+
+<div class="campo">
+    <label for="município"><strong>Município</strong></label>
+    <input type="text" name="município" id="município" placeholder="Digite Seu Município">
+    </div>
+
+<!-- comentário campo da UF -->
+
+<div class="campo">
+    <label for="estado"><stron>Estado:</strong></label>
+    
+    <select name="estado" aria-placeholder="Selecione seu Estado"> 
+        <option value="estado">Selecione o Estado</option> 
+        <option value="ac">Acre</option> 
+        <option value="al">Alagoas</option> 
+        <option value="am">Amazonas</option> 
+        <option value="ap">Amapá</option> 
+        <option value="ba">Bahia</option> 
+        <option value="ce">Ceará</option> 
+        <option value="df">Distrito Federal</option> 
+        <option value="es">Espírito Santo</option> 
+        <option value="go">Goiás</option> 
+        <option value="ma">Maranhão</option> 
+        <option value="mt">Mato Grosso</option> 
+        <option value="ms">Mato Grosso do Sul</option> 
+        <option value="mg">Minas Gerais</option> 
+        <option value="pa">Pará</option> 
+        <option value="pb">Paraíba</option> 
+        <option value="pr">Paraná</option> 
+        <option value="pe">Pernambuco</option> 
+        <option value="pi">Piauí</option> 
+        <option value="rj">Rio de Janeiro</option> 
+        <option value="rn">Rio Grande do Norte</option> 
+        <option value="ro">Rondônia</option> 
+        <option value="rs">Rio Grande do Sul</option> 
+        <option value="rr">Roraima</option> 
+        <option value="sc">Santa Catarina</option> 
+        <option value="se">Sergipe</option> 
+        <option value="sp">São Paulo</option> 
+        <option value="to">Tocantins</option> 
+    </select>
+    
+    </div>
+
+<!-- comentário telefone fixo -->
+
+<div class="campo">
+    <label for="telnum"><strong>Telefone Residencial</strong></label>
+    <input type="tel" name="telnum" id="telnum" pllaceholder="digite seu número de telefone residencial" size="20" maxlength="10" minlength="9">
+    <span class="Validar"></span>
+    
+    </div>
+
+<!-- comentário telefone celular -->
+    
+    <div class="campo">
+        <label for="celnum"><strong>digite seu número de telefone Celular (required): </strong></label>
+        <input id="celnum" name="celnum" type="tel" Size="20" Minlength="9" Maxlength="12" required>
+        <span class="validar"></span>
+      </div>
+
+      <div class="container">
+        <h2>Consulta CEP</h2>
+        <form>
+            <div class="frm-row">
+                <label for="cep">cep</label>
+                <input type="text" name="cep" id="cep" maxlength="9">
+            </div>
+            <div class="frm-row">
+                <label for="rua">rua</label>
+                <input type="text" name="rua" id="rua">
+            </div>
+            <div class="frm-row">
+                <label for="bairro">bairro</label>
+                <input type="text" name="bairro" id="bairro">
+            </div>
+            <div class="frm-row">
+                <label for="cidade">cidade</label>
+                <input type="text" name="cidade" id="cidade">
+            </div>
+            <div class="frm-row">
+                <label for="estado">estado</label>
+                <input type="text" name="estado" id="estado">
+            </div>
+    
+            <div>
+                <button onclick="msg()">Enviar Cadastro</button>
+              </div>
+            
+
+
+
+<script>
+function msg() {
+  alert("Seu cadastro foi enviado!");
+}
+</script>
+
+    <script src="js/consulta-endereco.js"></script>
+
+
+</body>
+</html>
