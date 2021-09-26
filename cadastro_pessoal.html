@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário de Cadastro Pessoal</title>
+    <link rel="stylesheet" type="text/css" href="css/cadastro_pessoal.css">
+
 </head>
 <body>
     
@@ -28,18 +30,16 @@ Preencha Corretamente Suas Imformações pessoais
 <input type="text name="nome" id="nome" placeholder="digite seu nome" required>
         </div>
 
-    <!-- comentário sobrenome -->
+    <!-- comentário campo parasobrenome -->
 
 <div class="campo">
-    <label for="sobrenome"><strong></strong>Sobrenome</label>
+    <label for="sobrenome"><strong>Sobrenome</strong></label>
     <input type="text" name="sobrenome" id="sobrenome" placeholder="digite seu sobrenome" required>
     
     </div>
     </fieldset>
-
         
-
-    <!-- comentário aqui começa o CPF -->
+    <!-- comentário campo para validação de cpf -->
         
     <div class="campo">
         <input type="text" name="cpf" \
@@ -50,44 +50,44 @@ Preencha Corretamente Suas Imformações pessoais
     </div>
     
     
-<!-- comentário aqui é o RG -->
+<!-- comentário campo para o RG -->
 
 <div class="campo">
     <label for="rg"><strong>RG</strong></label>
     <input type="text" name="rg" id="rg" placeholder="Digite Seu RG" required>
     </div>
 
-<!-- comentário botões para sexo -->
+<!-- comentário botões de seleção para sexo -->
 
 <div class="campo">
     <label><strong>Sexo</strong></label>
     <label>
-<input type="radio" name="devweb" value="feminino" checked>Feminino
+<input type="radio" name="feminino" value="feminino" checked>Feminino
     </label>
     <label>
-        <input type="radio" name="devweb" value="masculino">Masculino
+        <input type="radio" name="masculino" value="masculino">Masculino
     </label>
     <label>
-        <input type="radio" name="devweb" value="outros">Outros
+        <input type="radio" name="outros" value="outros">Outros
     </label>
 </div>
 
-<!-- comentário e-mail -->
+<!-- comentário campo para e-mail -->
 
 <div class="campo">
-    <label for="email"><strong>E-mail</strong>(required): </label>
+    <label for="email"><strong>E-mail</strong></label>
     <input type="email" name="email" id="email" placeholder="seuemail@exemplo.com" required>
     <span class="Validar"></span>
     </div>
 
 
-<!-- comentário endereço -->
+<!-- comentário campo para endereço -->
 <div class="campo">
     <label for="endereço"><strong>Endereço</strong></label>
     <input type="text" name="endereço" id="endereço" placeholder="Digite Seu Endereço" required>
     </div>
 
-    <!-- comentário campo do número -->
+    <!-- comentário campo para o número -->
     <div class="campo">
         <label for="número"><strong>Número</strong></label>
         <input type="text" name="Número" id="número" placeholder="Digite O número" required>
@@ -100,6 +100,15 @@ Preencha Corretamente Suas Imformações pessoais
     <input type="text" name="complemento" id="complemento" placeholder="Digite o Complemento se houver">
     </div>
 
+<!-- comentário campo para bairro -->
+
+    <div class="campo">
+        <label for="bairro"><strong>Bairro</strong></label>
+        <input type="text" name="bairro" id="bairro" placeholder="Digite o Bairro">
+        </div>
+    
+
+
 <!-- comentário campo para cidade -->
 
 <div class="campo">
@@ -110,7 +119,7 @@ Preencha Corretamente Suas Imformações pessoais
 <!-- comentário campo da UF -->
 
 <div class="campo">
-    <label for="estado"><stron>Estado:</strong></label>
+    <label for="estado"><strong>Estado:</strong></label>
     
     <select name="estado" aria-placeholder="Selecione seu Estado"> 
         <option value="estado">Selecione o Estado</option> 
@@ -157,7 +166,7 @@ Preencha Corretamente Suas Imformações pessoais
 <!-- comentário telefone celular -->
     
     <div class="campo">
-        <label for="celnum"><strong>digite seu número de telefone Celular (required): </strong></label>
+        <label for="celnum"><strong>digite seu número de telefone Celular</strong></label>
         <input id="celnum" name="celnum" type="tel" Size="20" Minlength="9" Maxlength="12" required>
         <span class="validar"></span>
       </div>
