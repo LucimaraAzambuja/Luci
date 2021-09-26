@@ -1,0 +1,41 @@
+		Desafio Cadastro Pessoal - Atração
+	Construí um formulário para cadastrar dados pessoais com os campos: Nome, Sobrenome, Cpf, Rg, Sexo, E-mail, Endereço, Número, Complemento, Bairro, Cidade, Estado, Cep, Telefone Fixo, Telefone Celular.
+	O usuário pode acessar o cadastro e preencher os campos, inclusive os do endereço sem autenticação de CEP.
+	Pensei fazer o formulário com esta função, pois ele pode ser apresentado de duas formas em uma, facilitando para aquelas pessoas que não conseguem interpretar as ferramentas, principalmente idosos.
+	Conforme solicitado os campos Nome, Cpf, Endereço, Número, Telefone Celular são obrigatórios.
+	Os recursos de CSS para deficientes visuais não são cobrados, mas mesmo assim tentei alterar margens, tamanho nos botões e alteração de fonte.
+	No final do formulário abre um alerta ao submeter.
+Hospedei o site em um servidor pago que tenho acesso.
+O campo Sexo implementei com o atributo radio selecionar com as opções para marcar feminino, masculino e outros.
+
+		Link para acessar o formulário:
+https://www.portalwebtec.com.br/cadastro_pessoal.html
+
+		link para acessar Github:
+https://github.com/LucimaraAzambuja/Luci
+
+Referências:
+
+1. Rafaela Vallerini (html e css);
+youtube
+https://www.youtube.com/watch?v=wwqOJ2o84S4&t=126s
+
+git hub
+https://github.com/rafaballerini/Formulario
+
+2. Douglas Horstmann (consulta-cep);
+https://github.com/douglash93/consulta-cep
+
+criando um formulário e busca cep parte 1
+https://www.youtube.com/watch?v=Zx9UsvAt8pY
+aula 2 criando o css
+https://www.youtube.com/watch?v=gmtesv74L7I&t=0s
+aula 03 recuperando um cep através do via cep com java
+
+https://www.youtube.com/watch?v=fxnJffrnrdY&t=0s
+
+3.Marcos Castro, (verificar CPF);
+https://gist.github.com/marcoscastro/7887900ceebe9e223dce
+
+4. Blog da Trybe (alerta java script);
+https://blog.betrybe.com/javascript/javascript-alert/
